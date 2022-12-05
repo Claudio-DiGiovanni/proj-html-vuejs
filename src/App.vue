@@ -1,10 +1,22 @@
 <template>
-  <div></div>
+  <div>
+    <headerPage />
+    <mainPage />
+    <footerPage />
+  </div>
 </template>
 
 <script>
-export default {
+import headerPage from '@/components/headerPage.vue';
+import mainPage from '@/components/mainPage.vue';
+import footerPage from '@/components/footerPage.vue';
 
+export default {
+  props: {
+    headerPage,
+    mainPage,
+    footerPage,
+  },
 };
 </script>
 
