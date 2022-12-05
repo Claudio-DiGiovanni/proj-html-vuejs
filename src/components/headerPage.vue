@@ -1,13 +1,22 @@
 <template>
-  <div></div>
+  <header>
+    <navBar />
+  </header>
 </template>
 
 <script>
-export default {
+import navBar from '@/components/navBar.vue';
 
+export default {
+  name: 'headerPage',
+  components: {
+    navBar,
+  },
 };
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  header{
+    width: 100%;
+  }
 </style>
