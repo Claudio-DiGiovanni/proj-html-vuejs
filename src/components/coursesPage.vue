@@ -99,9 +99,6 @@ export default {
     background-image: url('@/assets/img/home-background.png');
     background-repeat: no-repeat;
   }
-  .icon{
-    width: 80px;
-  }
 
   h2{
     padding: 2rem 0;

@@ -65,4 +65,8 @@ button{
 .title{
   font-family: 'Bubblegum Sans', cursive;
 }
+
+.icon{
+    width: 100px;
+  }
 </style>
