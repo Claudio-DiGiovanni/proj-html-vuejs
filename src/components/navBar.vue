@@ -106,6 +106,6 @@ a{
 }
 
 nav{
-  padding: 1rem 0;
+  padding: 1rem 5rem;
 }
 </style>
