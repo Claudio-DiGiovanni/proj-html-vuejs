@@ -1,3 +1,4 @@
+<!-- eslint-disable vuejs-accessibility/anchor-has-content -->
 <!-- eslint-disable max-len -->
 <template>
   <header>
@@ -9,7 +10,12 @@
       <button class="btn-yellow"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /> Search courses</button>
       <button class="btn-white"><font-awesome-icon icon="fa-solid fa-user-plus" /> Apply for university</button>
     </div>
-    <img src="@/assets/img/Wave-1.png" alt="">
+    <img class="img-fluid" src="@/assets/img/Wave-1.png" alt="">
+    <div class="side-btn">
+      <a href="#"><font-awesome-icon icon="fa-solid fa-cart-shopping" /></a>
+      <a href="#"><font-awesome-icon icon="fa-brands fa-readme" /></a>
+      <a href="#"><font-awesome-icon icon="fa-solid fa-life-ring" /></a>
+    </div>
   </header>
 </template>
 
@@ -58,5 +64,25 @@ export default {
 
   button{
     margin: 3rem .5rem;
+  }
+
+  .side-btn{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9d758;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    padding: 1rem;
+    border-radius: 0 10px 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+       rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    a{
+      color: white;
+      margin: .5rem 0;
+    }
   }
 </style>

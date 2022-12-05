@@ -51,6 +51,16 @@ button{
   background-color: #da5f60e6;
   color: white;
 }
+.btn-salmon{
+  background-color: #e56768;
+  color: #ffffff;
+  border: 1px solid #e56768;
+}
+.btn-salmon:hover{
+    background-color: white;
+    color: #e56768;
+    border: 1px solid lightgray;
+}
 
 .title{
   font-family: 'Bubblegum Sans', cursive;

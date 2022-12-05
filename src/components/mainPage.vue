@@ -1,13 +1,20 @@
 <template>
-  <div></div>
+  <main>
+    <coursesPage />
+  </main>
 </template>
 
 <script>
+import coursesPage from '@/components/coursesPage.vue';
+
 export default {
   name: 'mainPage',
+  components: {
+    coursesPage,
+  },
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>

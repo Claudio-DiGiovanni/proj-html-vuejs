@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item" :class="el.dropdown !== null ? 'dropdown' : ''" v-for="(el, i) in arrMenu" :key="i">
-          <a class="nav-link" :class="classMenu(i,el)" aria-current="page" href="#">{{ el.text }}</a>
+          <a class="nav-link" :class="classMenu(i,el)" aria-current="page" :href="('#' + el.text)">{{ el.text }}</a>
           <ul class="dropdown-menu" v-if="el.dropdown !== null">
             <li><a class="dropdown-item" v-for="link in el.dropdown" :key="link" href="#">{{ link }}</a></li>
           </ul>
