@@ -69,4 +69,11 @@ button{
 .icon{
     width: 100px;
   }
+
+input{
+  width: 400px;
+  padding: 1.07rem;
+  border: none;
+  border-radius: 2rem;
+}
 </style>

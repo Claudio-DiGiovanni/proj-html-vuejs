@@ -5,8 +5,8 @@
     <img class="bg" src="@/assets/img/theme_slider2_bg-1.jpg" alt="bg">
     <navBar />
     <div class="container">
-      <h1 class="title">Key to your succes</h1>
-      <p>EduPrime is the most versatile WordPress theme for educational poìurposes, <br> showcasing univesities, courses, secondary schools etc.</p>
+      <h1 class="title">Key to your success</h1>
+      <p>EduPrime is the most versatile WordPress theme for educational pourposes, <br> showcasing univesities, courses, secondary schools etc.</p>
       <button class="btn-yellow"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /> Search courses</button>
       <button class="btn-white"><font-awesome-icon icon="fa-solid fa-user-plus" /> Apply for university</button>
     </div>
