@@ -43,6 +43,9 @@
             </div>
       </div>
     </div>
+    <div class="popup">
+      <a href="#">Purchase EduPrime on Envato Market</a>
+    </div>
   </div>
 </template>
 
@@ -98,6 +101,7 @@ export default {
   #courses{
     background-image: url('@/assets/img/home-background.png');
     background-repeat: no-repeat;
+    position: relative;
   }
 
   h2{
@@ -158,6 +162,34 @@ export default {
       width: 15px;
       height: 15px;
       background-color: #e56768;
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
+      rotate: 180deg;
+    }
+  }
+
+  .popup{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: black;
+    padding: .3rem;
+    width: 210px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    ::before{
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      right: 48%;
+      width: 10px;
+      height: 10px;
+      background-color: black;
       clip-path: polygon(50% 0, 100% 100%, 0 100%);
       rotate: 180deg;
     }

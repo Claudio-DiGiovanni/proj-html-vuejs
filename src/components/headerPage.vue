@@ -1,7 +1,7 @@
 <!-- eslint-disable vuejs-accessibility/anchor-has-content -->
 <!-- eslint-disable max-len -->
 <template>
-  <header>
+  <header id="home">
     <img class="bg" src="@/assets/img/theme_slider2_bg-1.jpg" alt="bg">
     <navBar />
     <div class="container">
