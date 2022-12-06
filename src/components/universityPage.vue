@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <section id="news">
+  <section id="about-us">
     <img class="img-fluid" src="@/assets/svg/svg-0.svg" alt="">
     <div class="contents">
       <div class="container university">
@@ -13,7 +13,7 @@
             <p>{{ ele.text }}</p>
           </div>
         </div>
-        <div class="events">
+        <div class="events" id="news">
           <img class="icon" src="@/assets/img/upcoming-events-calendar-icon.png" alt="">
           <h2 class="title">Upcoming Events</h2>
           <div class="row g-5">

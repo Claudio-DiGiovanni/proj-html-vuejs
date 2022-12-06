@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <section id="latest-courses">
+  <section id="purchase">
     <div class="container">
       <h2 class="title">Latest Courses</h2>
       <div class="row row-cols-4 g-5">
@@ -50,25 +50,25 @@ export default {
     return {
       arrLatestCourses: [
         {
-          icon: '/img/Decisions-icon.128d8e54.png',
+          icon: 'img/Decisions-icon.png',
           name: 'Make Better Decisions',
           teacher: 'James Colins',
           price: '$21.00',
         },
         {
-          icon: '/img/Speaker-icon.a3f66d93.png',
+          icon: 'img/Speaker-icon.png',
           name: 'How to be a speaker',
           teacher: 'James Colins',
           price: 'free',
         },
         {
-          icon: '/img/Network-icon.a779281f.png',
+          icon: 'img/Network-icon.png',
           name: 'Network Introduction',
           teacher: 'James Colins',
           price: 'free',
         },
         {
-          icon: '/img/Brand-icon.8a194a04.png',
+          icon: 'img/Brand-icon.png',
           name: 'Brand Management',
           teacher: 'James Colins',
           price: 'free',
@@ -80,7 +80,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#latest-courses{
+#purchase{
   margin: 3rem 0;
 }
 

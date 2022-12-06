@@ -45,7 +45,7 @@ export default {
           ],
         },
         {
-          text: 'about us',
+          text: 'about-us',
           dropdown: null,
         },
         {
@@ -65,7 +65,7 @@ export default {
           ],
         },
         {
-          text: 'contact',
+          text: 'contacts',
           dropdown: null,
         },
         {
