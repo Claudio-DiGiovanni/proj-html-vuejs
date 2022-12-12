@@ -2,7 +2,7 @@
 <template>
   <section id="contacts">
     <div class="newsletter">
-      <div class="container">
+      <div class="container flex-column flex-md-row">
         <h3 class="title">Subscribe Now to Our Newsletter!</h3>
         <div class="input-text">
           <label for="email">

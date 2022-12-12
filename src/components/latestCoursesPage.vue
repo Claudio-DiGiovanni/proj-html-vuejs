@@ -3,7 +3,7 @@
   <section id="purchase">
     <div class="container">
       <h2 class="title">Latest Courses</h2>
-      <div class="row row-cols-4 g-5">
+      <div class="row row-cols-2 row-cols-md-4 g-5">
         <div class="col course-card" v-for="(course, i) in arrLatestCourses" :key="i">
           <div class="contents">
             <img :src="course.icon" alt="icon" class="img-fluid">
@@ -18,22 +18,22 @@
     <div class="container">
       <img class="icon mx-5" src="@/assets/img/Exam-icon.png" alt="">
       <div class="row justify-content-center">
-        <div class="col-5">
+        <div class="col-12 col-md-5">
           <h2 class="title">The most efficent examination method</h2>
           <p class="pb-5">EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</p>
           <button class="btn-salmon">Discover the Method</button>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <img src="@/assets/img/Exam-Illustration.png" alt="" class="img-fluid">
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <img src="@/assets/img/Girl-Illustration.png" alt="" class="img-fluid">
         </div>
-        <div class="col-5">
+        <div class="col-12 col-md-5">
           <img class="icon" src="@/assets/img/Exam-icon-1.png" alt="">
           <h2 class="title">Variable fees for international students</h2>
           <p class="pb-5">EduPrime has gathered teachers from around the globe to brainstorm in order to facilitate the evaluation of our students. Every teacher from our university has an influence on how students are evaluated at his/her subject.</p>

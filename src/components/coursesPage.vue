@@ -7,12 +7,12 @@
         <div class="col-12">
           <img class="icon" src="@/assets/img/Books-icon.png" alt="books">
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h2 class="title">Thousands of courses for any type of student</h2>
           <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a course that satisfies your needs within a click away and applies for a course in a matter of minutes. EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it provides.</p>
           <button class="btn-yellow">Browse through courses</button>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <img src="@/assets/img/Graduation-Illustration.png" alt="" class="img-fluid">
         </div>
       </div>
@@ -32,10 +32,10 @@
       </div>
       <div class="container">
         <div class="row row-cols-2 justify-content-center faculty-content" v-for="(faculty, i) in arrFaculty" :key="i" v-show="(selectedIndex === i)">
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <img class="img-fluid" :src="faculty.img" alt="img">
               </div>
-              <div class="col-6">
+              <div class="col-12 col-md-6">
                 <h2 class="title text-start">{{ faculty.name }}</h2>
                 <p>{{ faculty.text }}</p>
                 <button class="btn-salmon">Read More</button>

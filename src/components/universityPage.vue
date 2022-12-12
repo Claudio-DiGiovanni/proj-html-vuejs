@@ -17,7 +17,7 @@
           <img class="icon" src="@/assets/img/upcoming-events-calendar-icon.png" alt="">
           <h2 class="title">Upcoming Events</h2>
           <div class="row g-5">
-            <div class="col-4" v-for="(event, i) in arrEvents" :key="i">
+            <div class="col-12 col-md-4" v-for="(event, i) in arrEvents" :key="i">
               <div class="event-card">
                 <h4>{{ event.name }}</h4>
                 <span class="date"><font-awesome-icon icon="fa-solid fa-calendar-days" /> {{ event.date }}</span>

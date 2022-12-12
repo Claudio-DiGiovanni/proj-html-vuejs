@@ -7,8 +7,10 @@
     <div class="container">
       <h1 class="title">Key to your success</h1>
       <p>EduPrime is the most versatile WordPress theme for educational pourposes, <br> showcasing univesities, courses, secondary schools etc.</p>
-      <button class="btn-yellow"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /> Search courses</button>
-      <button class="btn-white"><font-awesome-icon icon="fa-solid fa-user-plus" /> Apply for university</button>
+      <div class="btn-container flex-column flex-md-row">
+        <button class="btn-yellow"><font-awesome-icon icon="fa-solid fa-magnifying-glass" /> Search courses</button>
+        <button class="btn-white"><font-awesome-icon icon="fa-solid fa-user-plus" /> Apply for university</button>
+      </div>
     </div>
     <img class="img-fluid" src="@/assets/img/Wave-1.png" alt="">
     <div class="side-btn">
@@ -50,6 +52,12 @@ export default {
     text-align: center;
     color: #ffffff;
     padding: 2rem 0;
+  }
+
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   h1{

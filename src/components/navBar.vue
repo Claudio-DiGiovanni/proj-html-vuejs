@@ -1,7 +1,7 @@
 <!-- eslint-disable no-else-return -->
 <!-- eslint-disable max-len -->
 <template>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-xxl">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="@/assets/img/theme_eduprime_logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,5 +107,6 @@ a{
 
 nav{
   padding: 1rem 5rem;
+  width: 100%;
 }
 </style>

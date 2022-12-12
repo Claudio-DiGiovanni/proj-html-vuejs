@@ -2,7 +2,7 @@
 <template>
   <footer>
     <div class="container">
-      <div class="row row-cols-3">
+      <div class="row row-cols-1 row-cols-md-3 flex-column flex-md-row">
         <div class="col">
           <img class="img-fluid" src="@/assets/img/theme_eduprime_logo.png" alt="logo">
           <p>EduPrime is the most versatile WordPress theme for educational purposes, showcasing universtities, courses, secondary school etc.</p>
